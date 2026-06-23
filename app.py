@@ -10,9 +10,9 @@ def home():
 def arrays():
     return render_template("arrays.html")
 
-@app.route("/linkedlists")
-def linkedlists():
-    return render_template("linkedlists.html")
+@app.route("/linkedlist")
+def linkedlist():
+    return render_template("linkedlist.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
